@@ -8,3 +8,4 @@ int main(){
     scanf("%c",&salir);
 }
 
+//En primer lugar defino dos variables, hermanos y hermanas, con un valor numerico entero.
