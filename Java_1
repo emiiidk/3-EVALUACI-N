@@ -1,0 +1,13 @@
+public class Pet {
+
+        String nombre, especie, raza;
+        int edad;
+        boolean vacunado;
+        public Pet(syting nombre){
+            this.nombre=nombre;
+        }
+    //Metodos
+    void setnombre(String nuevo_nombre);{ //void se utiliza si la funcion no devuelve nada
+        this.nombre=nuevo_nombre;
+    } 
+}
