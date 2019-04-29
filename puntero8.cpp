@@ -14,3 +14,5 @@ int main(){
     printf("palabra2 = %s  ",palabra2);
     scanf("%i",&salir);
 }
+
+//Asigno un valor para cada palabra en primer lugar. Luego se las pregunto al usuario, muestro su posicion y la propia palabra que me ha proporcionado.
