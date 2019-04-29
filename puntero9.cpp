@@ -15,3 +15,5 @@ int main(){
     printf("palabra2 = %c  ",*(palabra2+1));
     scanf("%i",&salir);
 }
+
+//En primer lugar leo dos palabras dadas por el usuario. Luego obtengo la posicion de memoria de cada una, así como la segunda letra de las mismas, ambas dos mostradas por pantalla.
