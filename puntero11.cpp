@@ -31,3 +31,8 @@ int main(){
      printf("\nToca cualquier tecla: ");
      scanf("%i",&salir);
 }
+
+//En primer lugar, además de definir las variables correspondientes, le pregunto al usuario 5 palabras a traves de un "for". 
+//La medida de esas palabras la obtengo a traves de la funcion definida en la parte superior del programa(actua como srtlen). 
+//Muestro por pantalla la longitud de las mismas, la cual ademas me es necesaria para completar la funcion malloc y asignarle una posicion de memoria a la palabra en la lista. 
+//Por ultimo, una vez asignados y definidos los punteros que conducen a las palabras proporcionadas, se muestran por pantalla todas seguidas.
