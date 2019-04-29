@@ -9,3 +9,4 @@ int main(){
     scanf("%c",&salir);
 }
 
+//Defino dos valores para cada una de las letras y posteriormente muestro la posición de memoria de ambas.
