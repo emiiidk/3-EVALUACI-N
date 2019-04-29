@@ -21,3 +21,5 @@ int main(){
      printf("\nToca cualquier tecla: ");
      scanf("%i",&salir);
 }
+
+//Defino una lista a traves de punteros que almancenen la posicion de memoria de las tres palabras que me propociona el usuario, una para cada rey mago, siendo estas mostradas en pantalla al final del codigo proporcionado.
