@@ -7,7 +7,7 @@ int contador(char palabra[]){
      int n_vocales=0;
      int j=0;
      while(palabra[j]!='\0'){
-         if(palabra[j]== 'a' || palabra[j]== 'e' || palabra[j]== 'i'|| palabra[j]== 'o'|| palabra[j]== 'u'){
+         if(palabra[j]=='a' || palabra[j]=='e' || palabra[j]=='i'|| palabra[j]=='o'|| palabra[j]=='u'){
              n_vocales++;
              }
          j++;
@@ -17,7 +17,7 @@ int contador(char palabra[]){
 
 
 int main(){
-    char *lista[3];
+    char *lista[5];
     char palabra[30];
     int i, nletras;
     char salida;
@@ -35,8 +35,7 @@ int main(){
     for(i=0;i<5;i++){
         cout << lista[i] << "\n";}
     
-    //cout << "\n El numero de vocales es: " << contador(palabra);
-        
+
     //Metodo burbuja
     for(nveces=1;nveces<5;nveces++){
     for(i=0;i<4;i++){
